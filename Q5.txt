@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main()
+{
+    int Iinput;
+    char Cinput;
+    float Finput;
+    printf("Enter an integer: ");
+    scanf("%d", &Iinput);
+    printf("Enter a character: ");
+    scanf(" %c", &Cinput);
+    printf("Enter a float: ");
+    scanf("%f", &Finput);
+    printf("You entered:\n");
+    printf("Integer: %d\n", Iinput);
+    printf("Character: %c\n", Cinput);
+    printf("Float: %.2f\n", Finput);
+    return 0;
+}
